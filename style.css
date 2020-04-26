@@ -39,6 +39,11 @@ body {
   transition: all 0.5s;
 }
 
+.video-wrap--2x {
+  width: 600px;
+  height: 400px;
+}
+
 .video-wrap--fullscreen {
   position: absolute;
   top: 0;
@@ -53,4 +58,9 @@ body {
 .video {
   width: 100%;
   height: 100%;
+}
+
+.form-control {
+  display: block;
+  margin: 5px 0;
 }

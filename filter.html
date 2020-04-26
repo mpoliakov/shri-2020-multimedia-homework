@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Test streams</title>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="btn-set">
+        <button class="btn btn--all-cameras">Все камеры</button>
+    </div>
+    <div class="container">
+        <div class="video-wrap video-wrap--2x">
+            <video id="video" class="video" controls muted autoplay></video>
+        </div>
+        <form name="filters" class="form">
+          <h4>Фильтры</h3>
+          <label class="form-control">
+            Яркость (%)
+            <input type="text" name="brightness">
+          </label>
+          <label class="form-control">
+            Контрастность (%)
+            <input type="text" name="contrast">
+          </label>
+          <button type="submit" class="form-control">Применить</button>
+        </form>
+    </div>
+    <script src="filter.js"></script>
+</body>
+
+</html>
